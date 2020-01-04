@@ -1,0 +1,22 @@
+{
+  "name": "doirun/restrictpaymentmethods",
+  "description": "Restrict various payment methods to Admin only.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Kevin Bodwell",
+      "email": "kevin@doi.run",
+      "homepage": "http://github.com/doirun"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "DoIRun\\Rules\\": ""
+    }
+  }
+}
